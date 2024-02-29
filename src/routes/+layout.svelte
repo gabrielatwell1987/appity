@@ -29,6 +29,6 @@
 
 <style>
 	.margin {
-		margin-left: 30%;
+		margin-left: 45%;
 	}
 </style>
