@@ -13,6 +13,10 @@
 	storeHighlightJs.set(hljs);
 </script>
 
+<svelte:head>
+	<title>Code Snippets</title>
+</svelte:head>
+
 <AppShell>
 	<svelte:fragment slot="header">
 		<AppBar>
