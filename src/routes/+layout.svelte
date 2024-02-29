@@ -27,8 +27,3 @@
 	<slot />
 </AppShell>
 
-<style>
-	:global(html, body) {
-		background-color: linear-gradient(90deg, #242424, #0f0f0f);
-	}
-</style>
