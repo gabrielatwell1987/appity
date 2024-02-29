@@ -31,6 +31,7 @@
 	.margin {
 		margin-left: 45%;
 		font-size: 3rem;
-		letter-spacing: 5px;
+		letter-spacing: 2px;
+		line-height: 1.1;
 	}
 </style>
