@@ -20,10 +20,15 @@
 <AppShell>
 	<svelte:fragment slot="header">
 		<AppBar>
-			<h1 class="text-center">Snippet Creator</h1>
+			<h1 class="text-left margin">Snippet Creator</h1>
 		</AppBar>
 	</svelte:fragment>
 
 	<slot />
 </AppShell>
 
+<style>
+	.margin {
+		margin-left: 30%;
+	}
+</style>
