@@ -30,5 +30,7 @@
 <style>
 	.margin {
 		margin-left: 45%;
+		font-size: 3rem;
+		letter-spacing: 5px;
 	}
 </style>
