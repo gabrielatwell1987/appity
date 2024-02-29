@@ -15,7 +15,7 @@
 
 <div class="flex justify-center">
 	<div class="grid grid-cols-1 gap-4 min-w-full md:min-w-[750px]">
-		<h3 class="text-center py-6 text-3xl">Create a Code Snippet</h3>
+		<h3 class="text-center py-6 text-3xl">Code Snippet Creator</h3>
 		<div class="card p-4 w-full text-token space-y-4 rounded">
 			<label class="label">
 				<span>Snippet Title</span>
@@ -30,13 +30,13 @@
 				</select>
 			</label>
 			<label class="label">
-				<span>Code Snippet</span>
+				<span>Main Snippet</span>
 				<textarea rows="4" class="textarea rounded" placeholder="Enter your code snippet here..." bind:value={formData.code}></textarea>
 			</label>
 			<button type="button" class="btn btn-sm variant-filled-primary rounded" on:click={() => addSnippet(formData)}>Create Snippet</button>
 		</div>
 		<div class="text-center py-6">
-			<h2 class="text-3xl">My Code Snippets</h2>
+			<h2 class="text-3xl">Code Snippets</h2>
 		</div>
 		{#each $snippetStore as snippet, index}
 			<CodeSnippetCard {snippet} {index} />
