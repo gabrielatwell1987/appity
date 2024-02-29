@@ -20,7 +20,7 @@
 <AppShell>
 	<svelte:fragment slot="header">
 		<AppBar>
-			<h1 class="text-left">Appity</h1>
+			<h1 class="text-center">Snippet Creator</h1>
 		</AppBar>
 	</svelte:fragment>
 
