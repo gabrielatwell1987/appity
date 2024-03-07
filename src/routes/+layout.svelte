@@ -8,9 +8,9 @@
 	// SkeletonUI
 	import {AppBar, AppShell, storeHighlightJs} from '@skeletonlabs/skeleton';
 	import hljs from 'highlight.js';
-	import 'highlight.js/styles/github.css';
+	//import 'highlight.js/styles/github.css';
 
-	storeHighlightJs.set(hljs);
+	//storeHighlightJs.set(hljs);
 </script>
 
 <svelte:head>
