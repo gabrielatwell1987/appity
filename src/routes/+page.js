@@ -16,8 +16,7 @@ export const load = (() => {
             {
 				title: "JavaScript",
 				language: "css",
-				//language: "javascript",
-				code: `document.querySelector('.woyld');`,
+				code: `document.querySelector('section');`,
 				favorite: false
 			}
         ]
