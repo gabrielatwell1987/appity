@@ -12,7 +12,7 @@ export const load = (() => {
 				language: "css",
 				code: `
     				main { 
-	 				background-color: black; 
+	 			    background-color: black; 
        				}
 	   			`,
 				favorite: false
