@@ -10,9 +10,7 @@ export const load = (() => {
 			{
 				title: "CSS",
 				language: "css",
-				code: `main { 
-	 			         background-color: black; 
-       				       }`,
+				code: `main { background-color: black; }`,
 				favorite: false
 			},
             {
