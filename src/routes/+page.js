@@ -10,13 +10,20 @@ export const load = (() => {
 			{
 				title: "CSS",
 				language: "css",
-				code: `main { background-color: black; }`,
+				code: `
+    				main { 
+	 				background-color: black; 
+       				}
+	   			`,
 				favorite: false
 			},
             {
 				title: "JavaScript",
 				language: "javascript",
-				code: `console.log('Chello Woyld!')`,
+				code: `
+    				console.log('Chello Woyld!');
+				document.querySelector('.woyld');
+				`,
 				favorite: false
 			}
         ]
