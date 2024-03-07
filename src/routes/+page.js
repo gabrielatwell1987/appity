@@ -20,11 +20,7 @@ export const load = (() => {
             {
 				title: "JavaScript",
 				language: "javascript",
-				code: `
-    				console.log('Chello Woyld!');
-	
-				document.querySelector('.woyld');
-				`,
+				code: `document.querySelector('.woyld');`,
 				favorite: false
 			}
         ]
