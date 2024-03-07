@@ -22,6 +22,7 @@ export const load = (() => {
 				language: "javascript",
 				code: `
     				console.log('Chello Woyld!');
+	
 				document.querySelector('.woyld');
 				`,
 				favorite: false
