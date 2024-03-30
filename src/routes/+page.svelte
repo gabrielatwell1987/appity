@@ -18,7 +18,7 @@
 		<h3 class="text-center py-6 text-3xl font-bold">Create a Snippet</h3>
 		<div class="card p-4 w-full text-token space-y-4 rounded">
 			<label class="label">
-				<span>Snippet Title</span>
+				<span class="font-semibold">Snippet Title</span>
 				<input type="text" class="input rounded" placeholder="Enter title here..." bind:value={formData.title}>
 			</label>
 			<label class="label">
@@ -36,7 +36,7 @@
 			<button type="button" class="btn btn-sm variant-filled-primary rounded font-bold" on:click={() => addSnippet(formData)}>Create Snippet</button>
 		</div>
 		<div class="text-center py-6">
-			<h2 class="text-3xl font-semibold">Code Snippets</h2>
+			<h2 class="text-3xl font-bold">Code Snippets</h2>
 		</div>
 		{#each $snippetStore as snippet, index}
 			<CodeSnippetCard {snippet} {index} />
