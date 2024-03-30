@@ -28,6 +28,10 @@
 </AppShell>
 
 <style>
+	:global(body) {
+		background-color: #242424;
+	}
+
 	.margin {
 		font-size: 3rem;
 		letter-spacing: 2px;
