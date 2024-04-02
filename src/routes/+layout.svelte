@@ -20,7 +20,7 @@
 <AppShell>
 	<svelte:fragment slot="header">
 		<AppBar>
-			<h1 class="margin mx-auto font-extrabold">Snippet Creator</h1>
+			<h1 class="margin mx-auto font-extrabold text-4xl">Snippet Creator</h1>
 		</AppBar>
 	</svelte:fragment>
 
