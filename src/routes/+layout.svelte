@@ -20,7 +20,7 @@
 <AppShell>
 	<svelte:fragment slot="header">
 		<AppBar>
-			<h1 class="margin mx-auto font-extrabold text-xl">Snippets</h1>
+			<h1 class="margin mx-auto font-extrabold">Snippets</h1>
 		</AppBar>
 	</svelte:fragment>
 
@@ -29,7 +29,7 @@
 
 <style>
 	.margin {
-		font-size: 3rem;
+		font-size: 1.5rem;
 		letter-spacing: 2px;
 		line-height: 1.1;
 	}
