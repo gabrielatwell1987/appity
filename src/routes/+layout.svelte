@@ -13,12 +13,24 @@
 	storeHighlightJs.set(hljs);
 </script>
 
+<svelte:head>
+	<title>Code Snippets</title>
+</svelte:head>
+
 <AppShell>
 	<svelte:fragment slot="header">
 		<AppBar>
-			<h1 class="text-left text-4xl">Appity</h1>
+			<h1 class="text-left">Appity</h1>
 		</AppBar>
 	</svelte:fragment>
 
 	<slot />
 </AppShell>
+
+<style>
+	.margin {
+		font-size: 1.5rem;
+		letter-spacing: 2px;
+		line-height: 1.1;
+	}
+</style>

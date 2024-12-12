@@ -15,7 +15,7 @@
 
 <div class="flex justify-center">
 	<div class="grid grid-cols-1 gap-4 min-w-full md:min-w-[750px]">
-		<h3 class="text-center py-6 text-3xl">Create a Code Snippet</h3>
+		<h3 class="text-center py-6 text-3xl font-bold">Create a Snippet</h3>
 		<div class="card p-4 w-full text-token space-y-4 rounded">
 			<label class="label">
 				<span>Snippet Title</span>
@@ -50,7 +50,7 @@
 			>
 		</div>
 		<div class="text-center py-6">
-			<h2 class="text-3xl">My Code Snippets</h2>
+			<h2 class="text-3xl font-bold">Code Snippets</h2>
 		</div>
 		{#each $snippetStore as snippet, index}
 			<CodeSnippetCard {snippet} {index} />
