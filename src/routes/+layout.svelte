@@ -20,7 +20,7 @@
 <AppShell>
 	<svelte:fragment slot="header">
 		<AppBar>
-			<h1 class="text-left">Appity</h1>
+			<h1 class="text-left title">Appity</h1>
 		</AppBar>
 	</svelte:fragment>
 
@@ -28,8 +28,10 @@
 </AppShell>
 
 <style>
-	.margin {
-		font-size: 1.5rem;
+	.title {
+		font-family: 'Verdana', sans-serif;
+		font-size: clamp(1.5rem, 2vw, 4rem);
+		font-weight: 700;
 		letter-spacing: 2px;
 		line-height: 1.1;
 	}
