@@ -6,7 +6,7 @@
 	// Most of your app wide CSS should be put in this file
 	import '../app.postcss';
 	// SkeletonUI
-	import {AppBar, AppShell, storeHighlightJs} from '@skeletonlabs/skeleton';
+	import { AppBar, AppShell, storeHighlightJs } from '@skeletonlabs/skeleton';
 	import hljs from 'highlight.js';
 	import 'highlight.js/styles/github.css';
 
@@ -16,7 +16,7 @@
 <AppShell>
 	<svelte:fragment slot="header">
 		<AppBar>
-			<h1 class="text-left">Appity</h1>
+			<h1 class="text-left text-4xl">Appity</h1>
 		</AppBar>
 	</svelte:fragment>
 

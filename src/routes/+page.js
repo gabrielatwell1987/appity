@@ -1,24 +1,24 @@
-export const load = (() => {
-    return {
-        snippets: [
-            {
-				title: "Appity HTML",
-				language: "html",
+export const load = () => {
+	return {
+		snippets: [
+			{
+				title: 'HTML',
+				language: 'html',
 				code: `<p>This is a paragraph</p>`,
 				favorite: false
 			},
 			{
-				title: "Appity CSS",
-				language: "css",
+				title: 'CSS',
+				language: 'css',
 				code: `main { background-color: black; }`,
 				favorite: false
 			},
-            {
-				title: "Appity JavaScript",
-				language: "javascript",
+			{
+				title: 'JavaScript',
+				language: 'javascript',
 				code: `console.log('Chello Woyld!')`,
 				favorite: false
 			}
-        ]
-    }
-});
+		]
+	};
+};
